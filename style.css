@@ -1,0 +1,36 @@
+* {
+  margin: 50px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #efefef;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #efefef;
+  border-radius: 5px;
+}
+
+.card .head {
+  height: 125px;
+  width: 100%;
+  position: relative;
+}
+
+.card .head .circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  background: violet;
+  bottom: 0;
+}
