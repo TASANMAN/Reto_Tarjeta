@@ -6,31 +6,44 @@
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background: #efefef;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: greenyellow;
 }
 
 .card {
-  position: relative;
-  width: 300px;
-  height: 400px;
-  background: #efefef;
-  border-radius: 5px;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+  box-shadow: 0 0 0 300px #ff5733;
+  border-radius: 10px;
 }
 
-.card .head {
-  height: 125px;
-  width: 100%;
-  position: relative;
+.card .head img {
+  border-radius: 50%;
+  padding: 20px;
 }
 
-.card .head .circle {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  border-radius: 50px;
-  background: violet;
-  bottom: 0;
+.description h2 {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.contact p {
+  padding: 20px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #215486;
 }
